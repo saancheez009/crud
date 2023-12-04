@@ -16,7 +16,7 @@ namespace Ejercicios.Controllers
 
             try
             {
-                connection.ConnectionString = "server=yjimenezdb.database.windows.net;database=yjimenezdb;uid=prueba;pwd=fernandoG321;trustServerCertificate=true";
+                connection.ConnectionString = "server=britanybd.database.windows.net;database=britanybd;uid=prueba;pwd=fernandoG321;trustServerCertificate=true";
                 connection.Open();
                 ViewBag.ConnectionState = $"Conectado: {connection.State}";
             }

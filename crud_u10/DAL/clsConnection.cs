@@ -5,7 +5,7 @@ namespace UD10.DAL
     {
         public static string connection() {
 
-            return "server=yjimenezdb.database.windows.net;database=yjimenezdb;uid=prueba;pwd=fernandoG321;trustServerCertificate=true";
+            return "server=britanybd.database.windows.net;database=ybritanybd;uid=prueba;pwd=fernandoG321;trustServerCertificate=true";
         }
     }
 }
